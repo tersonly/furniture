@@ -1,2 +1,2 @@
 git is a  version  control stytem
-git is free software
+我是李小真
