@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "师承";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Base_Checked = true;
+    ViewBag.Teacher_Active = "active";
+}
+<link  rel="stylesheet" href="~/Content/page/teacher/main.css"/>
+
+<section  class="content">
+    <div class="main">
+        <div class="item">
+            <div class="add-teacher" @@click="addReview">
+                <p>+</p>
+                <p>新增师承</p>
+            </div>
+        </div>
+        <div class="item animated  flipInY " >
+            <div class="teacher">
+                <img src="../../Images/null.jpg"  />
+            </div>
+            <p  class="teacher-p">李小臻</p>
+            <div class="teacher-btn">
+    	   		<input class="teacher-btn-edit" type="button" value="编辑" />
+           		<input class="teacher-btn-del"  type="button" value="删除" />
+        	</div>
+           
+        </div>
+    </div>
+
+
+</section>
+
+
+@section  individualScript{
+<script>
+    System.import('teacher/main')
+</script>
+}
+
+

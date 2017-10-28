@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "名家评述";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Base_Checked = true;
+    ViewBag.Review_Active = "active";
+}
+
+
+<link  rel="stylesheet"   href="~/Content/page/review/main.css"/>
+
+<section class="content">
+    <div class="main">
+        <div class="item">
+            <div class="add-reviewItem" @@click="addReview">
+                <h6>+</h6>
+                <h6>新增描述</h6>
+            </div>
+        </div>
+        <div class="item">
+            <div class="add-reviewItem">
+                <h3>书法</h3>
+                <p>陈醉，学者，画家。现任中国艺术研究院研究员，博士生导师，学位委员会委员。博士生导师。文化部突出贡献优秀专家，享受国家颁发的政府特殊津贴。中国人民共和国。</p>
+            </div>
+            <div class="review-btn">
+                <input class="review-btn-edit" type="button" value="编辑" />
+                <input class="review-btn-del" type="button" value="删除" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="dialog  dialog-1 hide"  data-width="900px"  data-height="" data-ani-name="fadeInUpBig" data-ani-close-name="fadeOutUpBig">
+    <header>新增评述</header>
+    <div class="has-album">
+        <form class="form"  id="form"  @@submit.prevent="submit">
+            <div class="review-top">
+                <div class="review-top-left">
+                    <p>+</p>
+                    <p>上传名家相片</p>
+                    <div class="review-top-left-group">
+                        <input   type="button"  value="从图库上传"/>
+                        <input   type="button"   value="本地上传"/>
+                    </div>
+                </div>
+                <div class="review-top-middle">
+                    <p>名家姓名：</p>
+                    <input   type="text"   v-model="artistName" />
+                    <p>名家所在地区：</p>
+                    <select  v-model="artistCity">
+                        <option value="">--选择省/直辖市--</option>
+                        <option value="1">广州</option>
+                        <option value="">武汉</option>
+                        <option value="">深圳</option>
+                        <option value="">上海</option>
+                        <option value="">成都</option>
+                    </select>
+                    <p>&nbsp;</p>
+                    <select>
+                        <option value="">选择市/区</option>
+                        <option value="">武汉</option>
+                        <option value="">随州</option>
+                        <option value="">十堰</option>
+                        <option value="">襄樊</option>
+                    </select>
+                    <select>
+                        <option value="">选择县/区</option>
+                        <option value="">武汉</option>
+                        <option value="">随州</option>
+                        <option value="">十堰</option>
+                        <option value="">襄樊</option>
+                    </select>
+                </div>
+                <div class="review-top-right">
+                    <p>名家简介：</p>
+                    <textarea  v-model="artistInfo"></textarea>
+                </div>
+
+            </div>
+            <div class="review-center">
+                <p>评述标题</p>
+                <input  type="text"   v-model="artistContent"  />
+                <p>评述内容</p>
+                <textarea></textarea>
+            </div>
+            <div  class="review-bottom">
+                <div  class="review-bottom-left">
+                    <p>+</p>
+                    <p>上传名家相片</p>
+                    <div class="review-bottom-left-group">
+                        <input type="button" value="从图库上传" />
+                        <input type="button" value="本地上传" />
+                    </div>
+                </div>
+                <div class="review-bottom-right">
+
+                </div>
+            </div>
+            <div  class="review-btn-groups">
+                <input  type="button"  class="dialog-close btn-cancle"   @@click="cancel"  value="取消"/>
+                <input  type="submit"  class="btn-submit  btn-ok" value="完成"/>
+            </div>
+        </form>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+@section  individualScript{
+    <script>
+    System.import("review/main")
+    </script>
+}
+

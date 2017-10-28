@@ -1,0 +1,301 @@
+﻿	
+			
+			.header-nav {
+				display: flex;
+				justify-content: center;
+				background-color: #E2EBED;
+			}
+			
+			.header-nav>input[type=radio]:checked+label {
+				border-bottom-color: #afc1c5;
+			}
+			
+			.header-nav>input[type=radio] {
+				display: none;
+			}
+			
+			.header-nav>label {
+				display: block;
+				font-size: 1.175em;
+				color: #061930;
+				padding: 12px;
+				border-top: solid 3px transparent;
+				border-bottom: solid 3px transparent;
+				transition: all .3s;
+			}
+			
+			.introduce {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 180px;
+				margin: 0 2rem;
+				border-bottom: solid 1px #e7e7e7;
+			}
+			
+			.introduce .introduce-left {
+				position: relative;
+			}
+			
+			.introduce-left>img {
+				width: 120px;
+				height: 120px;
+				border: 5px solid #fff;
+				border-radius: 50%;
+				box-shadow: 2px 2px 3px rgb(0, 0, 0, .4);
+			}
+			
+			.introduce-left>a {
+				position: absolute;
+				background-color: rgb(255, 255, 255, .5);
+				text-align: center;
+				cursor: pointer;
+				width: 100%;
+				height: 35px;
+				left: 0;
+				bottom: 0;
+			}
+			
+			.introduce-left>a>i {
+				color: #fff;
+				font-size: 1.7em;
+				padding: 5px;
+			}
+			
+			.introduce-right {
+				max-width: 300px;
+				margin: 0 15px;
+			}
+			
+			.introduce-right>p:first-child {
+				font-size: 1.7em;
+				font-weight: 700;
+				margin: 5px 0;
+			}
+			
+			.introduce-right>p {
+				display: inline-block;
+				margin: 5px;
+			}
+			
+			.introduce-right>p>i.fa {
+				color: #1ca514;
+				font-size: 1.4em;
+				margin: 5px;
+			}
+			
+			.introduce-right>p>i.fa-sun-o {
+				color: #f5b956;
+				font-size: 1.7em;
+				margin: 5px;
+			}
+			
+			.introduce-right>p>span {
+				margin: 5px;
+			}
+			
+			.select-wrap {
+				height: 100%;
+				overflow: hidden;
+				min-height: 700px;
+			}
+			
+			.select-wrap>.select-layout {
+				display: flex;
+				flex-wrap: nowrap;
+				transition: all .4s;
+				/*justify-content: center;*/
+			}
+			
+			
+			.select-layout>section{
+			  width: 100%;			  
+			  flex-shrink: 0;   /*多个div在一起超过了容器的宽度 是不是要缩小改块  ，设置0 不缩小；与flex-grow相反（所有的div的宽度加起来小于容器的宽度时，是不是放大 改div） */ 
+			   	
+			}
+			
+			
+			.form {
+				display: flex;
+				justify-content: center;
+			}
+			
+			.form p {
+				margin: 10px 0;
+				font-size: 16px;
+				color: #061930;
+			}
+			
+			.form p>span {
+				font-size: 12px;
+				color: #E1E1E1;
+			}
+			
+			.form1 {
+				align-items: center;
+				flex-direction: column;
+			}
+			
+			.form1>.form1-info {
+				display: flex;
+				justify-content: space-between;
+				margin: 10px 25px;
+				width: 760px;
+			}
+			
+			.hide {
+				display: none;
+			}
+			
+			.text,
+			input[type=text] {
+				font-size: 16px;
+				height: 45px;
+				color: #061930;
+				padding: 10px 15px;
+				border: 1px solid #E1E1E1;
+				border-radius: 5px;
+			}
+			
+			.txt-md {
+				width: 200px;
+			}
+			
+			.txt-sm {
+				width: 130px;
+			}
+			
+			.btn {
+				border-radius: 5px;
+				color: #fff;
+				transition: all .4s;
+				text-align: center;
+				display: inline-block;
+				cursor: pointer;
+			}
+			
+			
+			.btn-lg{
+				width: 250px;
+				height: 50px;
+				line-height: 50px;
+			}
+			
+			
+			.btn-defaul {
+				background-color: #1194A6;
+			}
+			
+			.radios input[type=radio]+label {
+				cursor: pointer;
+				width: 150px;
+				height: 45px;
+				line-height: 45px;
+				font-size: 1.17em;
+				background-color: #ccc;
+			}
+			
+			.radios input[type=radio]:checked+label {
+				color: #fff;
+				background-color: #1194a6;
+			}
+			
+			.run-group {
+				position: relative;
+			}
+			
+			.run-group>input[type=number] {
+				font-size: 16px;
+				color: #061930;
+				height: 45px;
+				padding: 10px 85px 10px 15px;
+				border: 1px solid #E1E1E1;
+				border-radius: 5px;
+				transition: all .4s;
+				position: relative;
+				outline: none;
+			}
+			
+			.run-group>i {
+				position: absolute;
+				top: 12px;
+				width: 70px;
+				right: 200px;
+				color: #666;
+			}
+			
+			.introduce-oneself {
+				margin: 10px 25px;
+			}
+			
+			.introduce-oneself>p {
+				margin: 10px 0;
+				font-size: 16px;
+				color: #061930;
+			}
+			
+			.introduce-self-text {
+				width: 760px;
+				height: 400px;
+			}
+			
+			textarea {
+				resize: none;
+				padding: 10px 15px;
+				border: 1px solid #E1E1E1;
+				border-radius: 5px;
+				outline: none;
+			}
+			
+			.studio-group,.certificate{
+				display: flex;
+				/*flex-wrap: wrap;
+				width: 150px;*/
+			}
+			
+			.studio-file,.certificate-file{
+				font-size: 20px;
+				color: #1ca514;
+				background-color: #fafafa;
+				border: 1px dashed  #E1E1E1;
+				cursor: pointer;
+				margin-right: 5px;
+				width: 45px;
+				height: 45px;
+				
+				/*文字居中的两种写法  布局 居中flex(容器中的所有东西 包括自己的文本文字) 和文本居中text-align(设置行高和高度相等(一般对文字在竖直方向上居中有效))*/												
+				/*display: flex;
+				justify-content: center;
+				align-items: center;*/
+				
+				
+				
+				text-align: center;
+				line-height: 45px;
+				
+			}
+			
+		 .show-studio, 	.show-certificate{
+				background-color: #fff;
+				border: 1px solid  #E1E1E1;
+				width: 45px;
+				height: 45px;
+			    display: flex;
+			    justify-content: center;
+			    align-items: center;
+			    margin-right: 5px;
+	
+			    
+
+			}
+			
+		.show-studio>img ,.show-certificate >img{
+				height: 39px;
+				width: 39px;
+			}
+			
+			.form2>div{
+			  margin: 10px 25px;
+				
+				
+			}

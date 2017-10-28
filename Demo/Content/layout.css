@@ -1,0 +1,222 @@
+	* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				outline: none;
+			}
+			
+			body {
+				font-family: "微软雅黑", "microsoft yahei", "幼圆";
+
+			}
+
+            .hide, [v-cloak]{
+	            display: none  !important;
+            }
+			
+			div,
+			p {
+				word-break: break-word;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			.left-content {
+				position: fixed;
+				width: 15%;
+				min-width: 200px;
+				/*�ӿڸ߶�*/
+				height: 100vh;
+				border-right: 2px solid red;
+				background-color: #f3f3f3;
+				box-shadow: 0 0 2px rgba(0, 0, 0, .6);
+				z-index: 1;
+				top: 10px;
+				transition: all .4s;
+			}
+			
+			.nav {
+				background-color: #F3F3F3;
+			}
+			
+			.nav input {
+				display: none;
+			}
+			
+			.nav .home>a {
+				color: #fff;
+				font-size: 30px;
+				background-color: #1194A6;
+				text-align: center;
+				text-decoration: none;
+				display: block;
+				padding: 12px 0;
+				margin-bottom: 30px;
+			}
+			
+			.nav label {
+				padding: 10px 0;
+				display: block;
+				color: #444;
+				font-size: 14px;
+				border-bottom: 1px dashed #B2B2B2;
+				text-align: center;
+				border: dashed 1px #b2b2b2;
+				transition: height .4s, background-color .3s;
+			}
+			
+			.nav a {
+				transition: height .4s background-color .3s;
+			}
+			
+			.nav input[type=radio]:checked+label {
+				background-color: #d5d5d5;
+			}
+			
+			.nav input[type=radio]:checked+ label>i[class$=right] {
+				transform: rotate(90deg);
+			}
+			
+			.nav label+section {
+				height: 0;
+				overflow: hidden;
+				transition: all .4s;
+			}
+			
+			.nav label>i {
+				padding: 0 10px;
+				color: #777;
+				font-size: 1em;
+				transition: all .4s;
+			}
+			
+			.nav section>a {
+				display: block;
+				color: #444;
+				font-size: 0.9em;
+				border-bottom: 1px solid #e7e7e7;
+				padding: 12px 0;
+				padding-left: 35%;
+				background-color: #fff;
+			}
+			
+			.nav section>a:hover,
+			.nav section>a.active {
+				background-color: #f3f3f3;
+			}
+			
+			.nav label+section {
+				height: 0;
+				overflow: hidden;
+				transition: all .4s;
+			}
+			
+			.nav input[type=radio]:checked+label+section:nth-child(4) {
+				height: 360px;
+			}
+			
+			.nav input[type=radio]:checked+label+section:nth-child(7) {
+				height: 135px;
+			}
+			
+			.nav input[type=radio]:checked+label+section:nth-child(10) {
+				height: 135px;
+			}		
+
+            .right-content {
+				padding-left: 15%;
+				min-width: 1000px;
+				border: 1px solid red;
+			}
+			
+			.right-content>.header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				min-height: 62px;
+				border-bottom: 1px solid #f0f0f0;
+			}
+			
+			.right-content>.header>.msg {
+				margin: 0 20px;
+			}
+			
+			.right-content>.header>.msg>a {
+				margin: 0 10px;
+			}
+			
+			.msg>a i {
+				color: #5A7181;
+				font-size: 20px;
+				transition: all .4s;
+			}
+			
+			.msg>a i:hover {
+				transform: rotate(360deg);
+				color: #6495ed;
+			}
+			
+			.header>h1 {
+				font-size: 16px;
+				color: #2C495E;
+			}
+			
+			.detailinfo {
+				position: relative;
+				margin: 0 20px;
+			}
+			
+			.detailinfo>img {
+				border-radius: 50%;
+			}
+			
+			.header .detailinfo:hover> .dropdown {
+				display: block;
+				opacity: 1;
+				background-color: #fff;
+			}
+			
+			.dropdown {
+				position: absolute;
+				display: none;
+				left: -55px;
+				top: 57px;
+				border: 1px solid #E0E0E0;
+				transition: all .3s;
+				z-index: 9;
+			}
+			
+			.dropdown ul li {
+				list-style: none;
+				width: 105px;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				border-bottom: 1px solid #E0E0E0;
+			}
+			
+			.dropdown .arrow>span {
+				display: block;
+				overflow: hidden;
+				line-height: 29px;
+				top: -20px;
+				right: 20px;
+				color: #333;
+				position: absolute;
+			}
+			
+			.dropdown .arrow span i {
+				display: inline-block;
+				border-color: transparent transparent #E0E0E0;
+				border-width: 7px;
+				height: 0;
+				width: 0;
+				border-style: solid;
+			}
+			
+			.dropdown .arrow span em {
+				border-bottom-color: #fff;
+				margin: 1px 0 0 -18px;
+			}

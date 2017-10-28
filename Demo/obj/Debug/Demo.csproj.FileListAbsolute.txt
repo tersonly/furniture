@@ -1,0 +1,179 @@
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\ApplicationInsights.config
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\csc.exe
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\System.Collections.Immutable.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\vbc.exe
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\VBCSCompiler.exe
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\roslyn\VBCSCompiler.exe.config
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Demo.dll.config
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Demo.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Demo.pdb
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Antlr3.Runtime.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.Web.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.WindowsServer.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.ApplicationInsights.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.Web.Infrastructure.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Newtonsoft.Json.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.Helpers.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.Mvc.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.Optimization.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.Razor.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.WebPages.Deployment.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.WebPages.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.WebPages.Razor.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\WebGrease.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.Web.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.AI.WindowsServer.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.ApplicationInsights.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.Helpers.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.Mvc.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.Optimization.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.Razor.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.WebPages.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.WebPages.Deployment.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\System.Web.WebPages.Razor.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Antlr3.Runtime.pdb
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\Newtonsoft.Json.xml
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\zh-Hans\System.Web.Helpers.resources.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\zh-Hans\System.Web.Mvc.resources.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\zh-Hans\System.Web.Optimization.resources.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\zh-Hans\System.Web.Razor.resources.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\zh-Hans\System.Web.WebPages.resources.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.dll
+c:\users\bzys-lxz\documents\visual studio 2015\Projects\Demo\Demo\obj\Debug\Demo.pdb
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\ApplicationInsights.config
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\csc.exe
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\vbc.exe
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\VBCSCompiler.exe
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Demo.dll.config
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Demo.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Demo.pdb
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Antlr3.Runtime.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.Web.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.ApplicationInsights.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Newtonsoft.Json.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.Helpers.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.Mvc.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.Optimization.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.Razor.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.WebPages.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.WebPages.Razor.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\WebGrease.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.Web.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.ApplicationInsights.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.Helpers.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.Mvc.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.Optimization.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.Razor.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.WebPages.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\System.Web.WebPages.Razor.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Antlr3.Runtime.pdb
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\Newtonsoft.Json.xml
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\obj\Debug\Demo.dll
+C:\Users\xiaozhenli\Desktop\Demo\Demo\obj\Debug\Demo.pdb
+D:\work\Demo\Demo\bin\ApplicationInsights.config
+D:\work\Demo\Demo\bin\roslyn\csc.exe
+D:\work\Demo\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\work\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\work\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\work\Demo\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\work\Demo\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\work\Demo\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\work\Demo\Demo\bin\roslyn\System.Collections.Immutable.dll
+D:\work\Demo\Demo\bin\roslyn\System.Reflection.Metadata.dll
+D:\work\Demo\Demo\bin\roslyn\vbc.exe
+D:\work\Demo\Demo\bin\roslyn\VBCSCompiler.exe
+D:\work\Demo\Demo\bin\roslyn\VBCSCompiler.exe.config
+D:\work\Demo\Demo\bin\Demo.dll.config
+D:\work\Demo\Demo\bin\Demo.dll
+D:\work\Demo\Demo\bin\Demo.pdb
+D:\work\Demo\Demo\bin\Antlr3.Runtime.dll
+D:\work\Demo\Demo\bin\Microsoft.AI.Agent.Intercept.dll
+D:\work\Demo\Demo\bin\Microsoft.AI.DependencyCollector.dll
+D:\work\Demo\Demo\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\work\Demo\Demo\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\work\Demo\Demo\bin\Microsoft.AI.Web.dll
+D:\work\Demo\Demo\bin\Microsoft.AI.WindowsServer.dll
+D:\work\Demo\Demo\bin\Microsoft.ApplicationInsights.dll
+D:\work\Demo\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\work\Demo\Demo\bin\Microsoft.Web.Infrastructure.dll
+D:\work\Demo\Demo\bin\Newtonsoft.Json.dll
+D:\work\Demo\Demo\bin\System.Web.Helpers.dll
+D:\work\Demo\Demo\bin\System.Web.Mvc.dll
+D:\work\Demo\Demo\bin\System.Web.Optimization.dll
+D:\work\Demo\Demo\bin\System.Web.Razor.dll
+D:\work\Demo\Demo\bin\System.Web.WebPages.Deployment.dll
+D:\work\Demo\Demo\bin\System.Web.WebPages.dll
+D:\work\Demo\Demo\bin\System.Web.WebPages.Razor.dll
+D:\work\Demo\Demo\bin\WebGrease.dll
+D:\work\Demo\Demo\bin\Microsoft.AI.DependencyCollector.xml
+D:\work\Demo\Demo\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\work\Demo\Demo\bin\Microsoft.AI.Web.xml
+D:\work\Demo\Demo\bin\Microsoft.AI.WindowsServer.xml
+D:\work\Demo\Demo\bin\Microsoft.ApplicationInsights.xml
+D:\work\Demo\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\work\Demo\Demo\bin\System.Web.Helpers.xml
+D:\work\Demo\Demo\bin\System.Web.Mvc.xml
+D:\work\Demo\Demo\bin\System.Web.Optimization.xml
+D:\work\Demo\Demo\bin\System.Web.Razor.xml
+D:\work\Demo\Demo\bin\System.Web.WebPages.xml
+D:\work\Demo\Demo\bin\System.Web.WebPages.Deployment.xml
+D:\work\Demo\Demo\bin\System.Web.WebPages.Razor.xml
+D:\work\Demo\Demo\bin\Antlr3.Runtime.pdb
+D:\work\Demo\Demo\bin\Newtonsoft.Json.xml
+D:\work\Demo\Demo\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\work\Demo\Demo\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\work\Demo\Demo\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\work\Demo\Demo\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\work\Demo\Demo\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\work\Demo\Demo\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\work\Demo\Demo\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\work\Demo\Demo\obj\Debug\Demo.dll
+D:\work\Demo\Demo\obj\Debug\Demo.pdb
+D:\work\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache

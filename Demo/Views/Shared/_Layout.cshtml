@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title -艺术家</title>
+    <link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="~/Content/layout.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left-content">
+            <div class="nav">
+                <header class="home">
+                    <a href="">返回首页</a>
+                </header>
+
+                <!--信息管理中心-->
+                <input type="radio" name="nav" id="base" autocomplete="off" checked="@ViewBag.Base_Checked" />
+                <label for="base"><i class="fa fa-folder-open"></i>信息管理中心<i class="fa fa-chevron-right"></i></label>
+                <section>
+                    <a class="@ViewBag.Basic_Active"    href="/Home/Index">基本信息</a>
+                    <a class="@ViewBag.Review_Active"   href="/Review/Index">头衔</a>
+                    <a href="">名家描述</a>
+                    <a class="@ViewBag.Teacher_Active"  href="/Teacher/Index">师承</a>
+                    <a href="">任职</a>
+                    <a href="">著作</a>
+                    <a href="">获奖</a>
+                    <a href="">铅印</a>
+                </section>
+                <!--媒体管理中心-->
+                <input type="radio" name="nav" id="media" autocomplete="off"  checked="@ViewBag.Media_Checked">
+                <label for="media"><i class="fa fa-folder-open"></i>媒体管理中心<i class="fa fa-chevron-right"></i></label>
+                <section>
+                    <a href="/Media/Index"   class="@ViewBag.Media_Active" >媒体库</a>
+                    <a href="">相册</a>
+                    <a href="">资讯</a>
+                </section>
+
+                <input type="radio" name="nav" id="work" autocomplete="off">
+                <label for="work"><i class="fa fa-folder-open"></i>代售管理中心<i class="fa fa-chevron-right"></i></label>
+                <section>
+                    <a href="">我的代售</a>
+                    <a href="">新增代售</a>
+                    <a href="">代售管理</a>
+                </section>
+            </div>
+        </div>
+        <div class="right-content">
+           <header class="header">
+                <div class="msg">
+                    <a href="" title="个人消息">
+                        <i class="fa  fa-commenting-o"></i>
+                    </a>
+                    <a href="" title="系统消息">
+                        <i class="fa fa-bell-o"></i>
+                    </a>
+                </div>
+                <h1>@ViewBag.Title</h1>
+                <div class="detailinfo">
+                    <img src="~/Images/null.jpg" width="50" />
+                    <div class="dropdown">
+                        <ul>
+                            <li>
+                                <a href="" target="_blank">李小臻</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">李小臻</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">李小楠</a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">退出</a>
+                            </li>
+                        </ul>
+                        <div class="arrow">
+                            <span><i></i><em></em></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            @RenderBody()
+        </div>
+    </div>
+
+    <script src="//cdn.bootcss.com/systemjs/0.19.31/system.js"></script>
+    <script src="~/config.js"></script>
+    <script src="//cdn.bootcss.com/vue/1.0.26/vue.min.js"></script>  
+
+    <script>
+    Vue.transition('zoom', {
+      enterClass: 'zoomIn',
+      leaveClass: 'zoomOut',
+    })
+    Vue.transition('flipy', {
+      enterClass: 'flipInY',
+      leaveClass: 'flipOutY',
+    })
+    Vue.transition('bounce', {
+      enterClass: 'bounceIn',
+      leaveClass: 'bounceOut',
+    })
+    Vue.transition('slide', {
+      enterClass: 'slideInUp',
+      leaveClass: 'slideOutDown',
+    })
+    Vue.transition('fadeDown', {
+      enterClass: 'fadeInDown',
+      leaveClass: 'fadeOutDown',
+    })
+    </script>
+
+
+      @RenderSection("individualScript", required: false)
+
+
+
+    @*使用vue的动画*@
+
+
+   
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+﻿@{
+    ViewBag.Title = "基本信息";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Base_Checked = true;
+    ViewBag.Basic_Active = "active";
+}
+
+<link  href="~/Content/page/basic-info/main.css"  rel="stylesheet"/>
+
+<section class="content">
+    <nav class="header-nav">
+        <input type="radio" name="info" id="person" checked="checked" value="0" autocomplete="off" @@click="tab" />
+        <label for="person">个人资料</label>
+        <input type="radio" name="info" id="degree" value="1" autocomplete="off" @@click="tab" />
+        <label for="degree">学历职称</label>
+        <input type="radio" name="info" id="studio" value="2" autocomplete="off" @@click="tab" />
+        <label for="studio">工作室</label>
+    </nav>
+    <!--基本介绍-->
+    <div class="introduce">
+        <div class="introduce-left">
+            <img src="~/Images/null.jpg" width="120" />
+            <a><i class="fa fa-camera"></i></a>
+        </div>
+        <div class="introduce-right">
+            <p>李小臻</p>
+            <p><i class="fa fa-sun-o "></i><em>上午好</em></p>
+            <p><i class="fa fa-graduation-cap"></i>本科</p>
+            <p><i class="fa fa-book"></i><span title="创意新星">创意新星</span><span title="有志青年">有志青年</span></p>
+            <p>
+                <i class="fa fa-link"></i>
+                <a href="" target="_blank">http://xiaozhenli.bzys.cn</a>
+            </p>
+        </div>
+    </div>
+    <div class="select-wrap">
+        <div class="select-layout" id="layout" style="transform: translateX(0px);">
+            <section>
+                <form class="form  form1">
+                    <div class="form1-info">
+                        <div>
+                            <input type="hidden" data-val="true" data-val-number="字段ID必须是个数字。" data-val-required="ID字段是必须的" id="ID" name="ID" value="5" />
+                            <p>艺术家尊称：<span>你的姓名、或者名字。此项不可以更改</span></p>
+                            <input class="text txt-md" disabled  id="Name" maxlength="10" name="Name" type="text" value="小臻李" />
+                            <p>性别：</p>
+                            <div class="radios">
+                                <input type="radio" name="SexIDByD" id="10" value="10" checked="checked" class="hide" />
+                                <label for="10" class="btn btn-defaul"><i class="fa fa-mars"></i>男</label>
+                                <input type="radio" name="SexIDByD" id="11" value="11" class="hide" />
+                                <label for="11" class="btn  btn-defaul"><i class="fa fa-venus"></i>女</label>
+                            </div>
+                            <p>
+                                国籍：<span>请选择你的国籍</span>
+                            </p>
+                            <select class="text txt-md" data-val="true" data-val-number="必须是个数字" data-val-required="必须选择国籍" required id="NationalityId" name="NationalityId">
+                                <option value="">--请选择--</option>
+                                <option value="1">中国</option>
+                                <option value="2">美国</option>
+                                <option value="3">俄国</option>
+                            </select>
+                            <p>居住地址：<span>你的居住地址</span></p>
+                            <select class="text  txt-sm">
+                                <option value="">--省--</option>
+                                <option value="1">湖北</option>
+                                <option value="2">广东</option>
+                            </select>
+                            <select class="text  txt-sm">
+                                <option value="">--市--</option>
+                                <option value="1">随州</option>
+                                <option value="2">荆州</option>
+                                <option value="3">襄樊</option>
+                                <option value="4">十堰</option>
+                            </select>
+                            <select class="text  txt-sm">
+                                <option value="">--区--</option>
+                                <option value="1">曾都区</option>
+                                <option value="2">何店镇</option>
+                                <option value="3">桂花村</option>
+                            </select>
+                            <p>润格：</p>
+                            <div class="run-group">
+                                <input type="number" value="10" name="Run" class="text txt-md" min="1" max="10" /><i>元/平方尺</i>
+                            </div>
+                        </div>
+                        <div>
+                            <p>别名：</p>
+                            <input type="text" class="text txt-md" />
+                            <p>出生年月：</p>
+                            <input type="date" name="BirthDate" value="" class="text  txt-md" placeholder="2016-11-08" max="2016-11-08" min="1753-01-01" />
+                            <p>祖籍：</p>
+                            <select class="text  txt-sm">
+                                <option value="1">湖北</option>
+                                <option value="2">广州</option>
+                            </select>
+                            <select class="text  txt-sm">
+                                <option value="1">随州</option>
+                                <option value="2">武汉</option>
+                                <option value="3">荆门</option>
+                                <option value="4">十堰</option>
+                            </select>
+                            <p>助理电话：</p>
+                            <input type="text" class="text  txt-md" data-val="true" data-val-number="我是XXX" data-val-required="我是必须的xxx" value="" />
+                            <p>民族：</p>
+                            <select class="text  txt-md">
+                                <option value="1">汉族</option>
+                                <option value="2">回族</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="introduce-oneself">
+                        <p>艺术家简介：</p>
+                        <textarea class="introduce-self-text" id="Intro" maxlength="800" name="Intro" rows>我是一名xxxxxx</textarea>
+                        <p>&nbsp;</p>
+                        <input type="submit" value="保存修改" class="btn  btn-lg btn-defaul" />
+                    </div>
+                </form>
+            </section>
+            <section>
+                <form class="form  form2">
+                    <input type="hidden" id="ID" name="ID" value="5" />
+                    <div>
+                        <p>学历：</p>
+                        <input type="radio" name="degree" id="12" value="12" />
+                        <label for="12">高中</label>
+                        <input type="radio" name="degree" id="13" value="13" />
+                        <label for="13">中专</label>
+                        <input type="radio" name="degree" id="14" value="14" />
+                        <label for="14">大专</label>
+                        <br />
+                        <input type="radio" name="degree" id="15" value="15" />
+                        <label for="15">本科</label>
+                        <input type="radio" name="degree" id="16" value="16" />
+                        <label for="16">硕士</label>
+                        <input type="radio" name="degree" id="17" value="17" />
+                        <label for="17">博士</label>
+                        <p>学历证书：</p>
+                        <div class="certificate">
+                            <div class="certificate-file">
+                                +<input type="file" class="hide" />
+                            </div>
+                            <div class="show-certificate">
+                                <img src="~/Images/null.jpg" />
+                            </div>
+                            <div class="show-certificate">
+                                <img src="~/Images/null.jpg" />
+                            </div>
+                            <br />
+                        </div>
+
+                        <p>&nbsp;</p>
+                        <input type="submit" class="btn  btn-lg btn-defaul" value="确定" />
+                    </div>
+
+                    <div>
+                        <p>毕业院校：</p>
+                        <select class="text  txt-md">
+                            <option value="0">中央美术学院</option>
+                            <option value="1">北师大</option>
+                        </select>
+                        <p>职称：</p>
+                        <input type="text" class="text txt-md" placeholder="职称" />
+                    </div>
+                </form>
+
+            </section>
+            <section>
+                <input type="hidden" id="ID" name="ID" value="5" />
+                <form class="form  form3">
+                    <div>
+                        <p>擅长：</p>
+                        <select class="text  txt-md">
+                            <option value="">国画</option>
+                            <option value="1">艺术画</option>
+                            <option value="2">篆刻</option>
+                            <option value="3">油画</option>
+                            <option value="4">当代艺术</option>
+                        </select>
+                        <p>工作室地址：</p>
+                        <input type="text" class="text  txt-md" value="" autocomplete="off" />
+                        <p>工作室照片：</p>
+                        <div class="studio-group">
+                            <div class="studio-file">
+                                +<input type="file" hidden="hidden" />
+                            </div>
+                            <div class="show-studio">
+                                <img src="~/Images/null.jpg" />
+                            </div>
+                            <div class="show-studio">
+                                <img src="~/Images/null.jpg" />
+                            </div>
+                        </div>
+                        <p>&nbsp;</p>
+                        <input type="submit" class="btn  btn-lg btn-defaul" value="确定" />
+                    </div>
+                    <!--右边的部分-->
+                    <div>
+                        <p>风格：</p>
+                        <input type="text" class="text txt-md" autocomplete="off" placeholder="风格" />
+                        <p>二级域名：（暂时不可修改）</p>
+                        <input type="text" class="text  txt-md" disabled="disabled" value="http://www.baidu.com" />
+                        <p>斋号：</p>
+                        <input type="text" class="text  txt-md" autocomplete="off" />
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+</section>
+
+
+
+
+@section  individualScript{
+<script>
+    System.import("basic-info/main")
+</script>
+}
